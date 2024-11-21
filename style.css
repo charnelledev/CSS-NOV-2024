@@ -1,0 +1,36 @@
+h1{
+    color: rgb(202, 13, 50);
+    background-color: yellow;
+}
+h2{
+    color: forestgreen;
+    background-color: yellow;
+}
+
+b{
+    background-color: blue;
+    color: white;
+    padding: 10px ;
+
+}
+
+p, span{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+/*selecteur classe*/
+.titre-1{
+    color: rgb(173, 92, 92);
+}
+.text{
+    color: black;
+}
+/*header h1{
+header p
+header span
+header a
+header button
+color:red;
+}*/
+header :is( h1,p,span,a,button)
