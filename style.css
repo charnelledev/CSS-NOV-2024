@@ -1,6 +1,10 @@
-h1{
+h1:hover{
     color: rgb(202, 13, 50);
     background-color: yellow;
+    padding: 5px;
+}
+h1{
+    color: red;
 }
 h2{
     color: forestgreen;
@@ -13,24 +17,13 @@ b{
     padding: 10px ;
 
 }
-
-p, span{
-    background-color: red;
+span{
+    background-color: green;
+    padding: 5px;
+    border-radius: 7px;
+}
+span:hover{
     color: white;
-    padding: 10px;
+    letter-spacing: 2px;
+transform: scale(2);
 }
-/*selecteur classe*/
-.titre-1{
-    color: rgb(173, 92, 92);
-}
-.text{
-    color: black;
-}
-/*header h1{
-header p
-header span
-header a
-header button
-color:red;
-}*/
-header :is( h1,p,span,a,button)
