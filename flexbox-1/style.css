@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a: hover{
+    color: red;
+}
+p::first-letter{
+    font-size: 24px;
+    font-weight: bold;
+}
